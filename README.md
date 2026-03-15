@@ -8,6 +8,7 @@ This project detects plant diseases using Machine Learning algorithms.
 - Random Forest
 - SVM
 - KNN
+- PCA
 
 ## Why Linear Regression and Multiple Linear Regression did not work
 
