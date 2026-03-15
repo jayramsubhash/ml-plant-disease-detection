@@ -72,6 +72,3 @@ Random Forest achieved the highest accuracy.
 2. Open `plant_disease_machine.ipynb`
 3. Run the notebook cells step by step
 
-## Author
-Jayram
-B.Tech CSE (AI & ML)
