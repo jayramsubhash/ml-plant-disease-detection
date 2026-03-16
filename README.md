@@ -8,7 +8,7 @@ This project detects plant diseases using Machine Learning algorithms.
 - Random Forest
 - SVM
 - KNN
-- PCA
+  
 
 ## Why Linear Regression and Multiple Linear Regression did not work
 
@@ -67,17 +67,17 @@ Plant leaf disease dataset containing healthy and diseased leaves.
 
 ## Model Accuracy Comparison
 Without PCA Algorithm	Accuracy :
-Decision Tree	20.70%
-Logistic Regression	48.18%
-KNN (K-Nearest Neighbors)	31.25%
-Random Forest	48.83%
-SVM (Support Vector Machine)	58.20%
+-Decision Tree	20.70%
+-Logistic Regression	48.18%
+-KNN (K-Nearest Neighbors)	31.25%
+-Random Forest	48.83%
+-SVM (Support Vector Machine)	58.20%
 With PCA (Principal Component Analysis) Algorithm	Accuracy : 
-Decision Tree + PCA	45.44%
-Logistic Regression + PCA	25.39%
-KNN + PCA	46.88%
-Random Forest + PCA	57.94%
-SVM + PCA	40.23%
+-Decision Tree + PCA	45.44%
+-Logistic Regression + PCA	25.39%
+-KNN + PCA	46.88%
+-Random Forest + PCA	57.94%
+-SVM + PCA	40.23%
 
 ## Observation
 Best model without PCA: SVM (58.20%)
