@@ -65,8 +65,27 @@ Plant leaf disease dataset containing healthy and diseased leaves.
 5. Compare accuracy
 6. Predict plant disease
 
-## Results
-Random Forest achieved the highest accuracy.
+## Model Accuracy Comparison
+Without PCA Algorithm	Accuracy :
+Decision Tree	20.70%
+Logistic Regression	48.18%
+KNN (K-Nearest Neighbors)	31.25%
+Random Forest	48.83%
+SVM (Support Vector Machine)	58.20%
+With PCA (Principal Component Analysis) Algorithm	Accuracy : 
+Decision Tree + PCA	45.44%
+Logistic Regression + PCA	25.39%
+KNN + PCA	46.88%
+Random Forest + PCA	57.94%
+SVM + PCA	40.23%
+
+## Observation
+Best model without PCA: SVM (58.20%)
+Best model with PCA: Random Forest + PCA (57.94%)
+PCA improved performance for Decision Tree and KNN but reduced accuracy for some other models.
+
+## Conclusion
+Support Vector Machine achieved the highest accuracy without dimensionality reduction, while Random Forest performed best when PCA was applied.
 
 ## How to Run
 1. Download the dataset
