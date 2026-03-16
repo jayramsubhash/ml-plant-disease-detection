@@ -23,29 +23,11 @@ predicting sales amount
 
 But in this project, the task is classification, not prediction of numbers.
 
-The model needs to predict categories, such as:
-
-Healthy leaf
-
-Diseased leaf
-
-Different disease types
+The model needs to predict categories, such as: Healthy leaf , Diseased leaf , Different disease types
 
 Since Linear Regression tries to predict numerical values instead of classes, it does not perform well for this problem. The predictions are continuous numbers and cannot clearly separate disease categories.
 
-Because of this, classification algorithms like:
-
-Decision Tree
-
-Random Forest
-
-KNN
-
-SVM
-
-Logistic Regression
-
-work better for this project.
+Because of this, classification algorithms like: Decision Tree , Random Forest , KNN , SVM , Logistic Regression work better for this project.
 
 ## Dataset
 Plant leaf disease dataset containing healthy and diseased leaves.
